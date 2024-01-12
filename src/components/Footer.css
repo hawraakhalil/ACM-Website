@@ -1,0 +1,105 @@
+.footer-container {
+  background-color: #242424;
+  padding: 4rem 2rem 2rem 2rem; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-section li a {
+
+  text-decoration: underline; /* Add underline on hover if desired */
+  color:white;
+}
+
+.center-section li a:hover {
+  color: blueviolet; /* Set link color */
+}
+
+.left-section img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.center-section {
+  text-align: center;
+  color: white;
+}
+
+.center-section h4 {
+  margin-bottom: 1rem;
+}
+
+.center-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center-section li {
+  margin-bottom: 0.5rem;
+}
+
+.right-section {
+  text-align: right;
+  color: white;
+}
+
+.right-section p {
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+}
+
+.social-icon-link {
+  text-decoration: none;
+  margin-right: 10px; /* Adjust the spacing between icons */
+  margin-left:10px;
+}
+
+.social-icon-link i {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: white;
+  transition: color 0.3s ease;
+}
+.social-icon-link:hover i {
+  color: blueviolet; /* Change to the desired color on hover */
+}
+@media screen and (min-width: 960px) {
+
+  .social-icon-link i {
+    font-size: 4rem; /* Adjust the font size as needed */
+  }
+  .footer-container {
+    padding: 4rem 16rem 2rem 10rem; 
+  }
+  .left-section img {
+    width: 250px; /* Adjust the width as needed */
+  }
+  .center-section h4 {
+    font-size: larger;
+  }
+}
+@media screen and (max-width: 480px) {
+  .social-icon-link {
+    margin-right: 5px; /* Adjust the spacing between icons */
+  }
+  .left-section img {
+    width: 120px;
+  }
+  .center-section h4 {
+    margin-bottom: 0.5rem;
+    font-size: small;
+  }
+  .center-section li {
+    font-size: x-small;
+    margin-bottom: 0.2rem;
+  }
+  .right-section p {
+    font-size:x-small;
+  }
+
+}

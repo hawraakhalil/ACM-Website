@@ -2,7 +2,9 @@
             box-shadow: 0 0 0 4px black, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
   }
 
+  @media screen and (min-width: 1170px) {
   .vertical-timeline-element:hover {
     transform: scale(1.1); /* Increase the size by 10% on hover */
     transition: transform 0.3s ease; /* Add a smooth transition effect */
   }
+}

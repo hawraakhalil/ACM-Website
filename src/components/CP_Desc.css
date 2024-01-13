@@ -1,0 +1,56 @@
+/* Committee_Desc.css */
+.committee-desc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+  }
+  
+  .text-section {
+    flex: 1;
+    text-align: center;
+    max-width:40%;
+    padding:20px;
+    margin-right:90px;
+  }
+  
+  .text-section h1 {
+    font-size: 35px; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+    color: #B00707;
+    text-shadow: 0 0 10px rgba(176, 7, 7, 0.8); /* Adjust the shadow properties as needed */
+    animation: flicker 5s ease-in-out infinite; /* Adjust the animation duration as needed */
+  }
+  
+@keyframes flicker {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(176, 7, 7, 0.8);
+    }
+    25%, 75% {
+      text-shadow: 0 0 0 rgba(176, 7, 7, 0.8); /* Use a shadow with no blur to simulate turning off */
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(176, 7, 7, 0.8);
+    }
+  }
+
+  .text-section p {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  .banner-section {
+    flex: 1;
+    text-align: center;
+    border: 2px solid #ddd; /* Adjust border properties as needed */ 
+    max-width:50%;
+    border-radius:15px;
+  }
+  .banner-section img{
+    border-radius:15px;
+  }
+
+  .banner-section img {
+    max-width: 100%;
+    height: auto;
+  }

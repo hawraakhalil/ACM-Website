@@ -1,13 +1,34 @@
-import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import './Banner.css'
+import React from 'react';
+import './Banner.css';
 
-export default function Banner() {
+const Banner = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' , padding:"50px"}}>
-<img src={'/images/banner.jpg'} style={{width:"60%", borderRadius: "5rem", border: "5px solid black"}} /> 
-</div>
+    <div className="committees-container">
+      <div className="top-section">
+        <h2>Our Committees</h2>
+        <p>At AUB ACM, we consider our committees the pillars upon which our aspirations stand. Our student branch is currently composed of 3 committees</p>
+      </div>
+      <div className="bottom-section">
+        <div className="committee">
+          <h3 className="cp_glow" >COMPETITIVE PROGRAMMING</h3>
+          <img src='/images/cp_logo.jpg' alt="Committee 1" />
+          <p>Conquering Competitive Programming</p>
+        </div>
+        <div className="committee">
+          <h3 className="edu_glow">EDUCATION</h3>
+          <img src='/images/education_logo.jpg' alt="Committee 3" />
+          <p>Teaching the World</p>
+        </div>
+        <div className="committee">
+          <h3  className="ai_glow" >ARTIFICIAL INTELLIGENCE</h3>
+          <img src='/images/ai_logo.jpg' alt="Committee 2" />
+          <p>Building Artificial Intelligence</p>
+        </div>
+        
+       
+      </div>
+    </div>
   );
-}
+};
+
+export default Banner;

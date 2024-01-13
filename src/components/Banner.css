@@ -1,10 +1,122 @@
-.container {
-    margin-top:22%;
-    margin-bottom:22%;
-    padding-right:10px;
-    padding-left:10px;
-    justify-content: center;
-    align-items: center;
+.committees-container {
     display: flex;
-    align-self: auto;
+    flex-direction: column; /* Changed to column layout */
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .top-section {
+    margin-top: 20px; 
+    margin-bottom: 25px; /* Added margin between top and bottom sections */
+    text-align: center;
+  }
+  
+  .top-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .top-section p {
+    margin-top: 10px;
+    font-size:19px;
+    padding:10px;
+  }
+  
+  .bottom-section {
+    display: flex;
+    flex-direction: row; /* Changed to column layout */
+    align-items: center;
+  }
+  
+  .committee {
+    text-align: center;
+  }
+  
+  .committee img {
+    max-width: 65%;
+    height: auto;
+  }
+  
+  .cp_glow {
+    margin-bottom: 5px;
+        color: #B00707;
+        text-shadow: 0 0 10px rgba(176, 7, 7, 0.8); /* Adjust the shadow properties as needed */
+        animation: flicker_cp_glow 5s ease-in-out infinite; /* Adjust the animation duration as needed */
+  }
+
+  .ai_glow {
+    margin-bottom: 5px;
+    color: #47817F; /* Another color */
+    text-shadow: 0 0 10px rgba(71, 129, 127, 0.8); /* Adjust the shadow properties as needed */
+    animation: flicker_ai_glow 5s ease-in-out infinite;
+  }
+
+  .edu_glow {
+    margin-bottom: 5px;
+    color: #0089FF;
+    text-shadow: 0 0 10px rgba(0, 137, 255, 0.8);
+    animation: flicker_edu_glow 5s ease-in-out infinite;
+  }
+
+    @keyframes flicker_cp_glow {
+        0%, 100% {
+          text-shadow: 0 0 10px rgba(176, 7, 7, 0.8);
+        }
+        25%, 75% {
+          text-shadow: 0 0 0 rgba(176, 7, 7, 0.8); /* Use a shadow with no blur to simulate turning off */
+        }
+        50% {
+          text-shadow: 0 0 20px rgba(176, 7, 7, 0.8);
+        }
+      }
+
+      @keyframes flicker_ai_glow {
+        0%, 100% {
+          text-shadow: 0 0 10px rgba(71, 129, 127, 0.8);
+        }
+        25%, 75% {
+          text-shadow: 0 0 0 rgba(71, 129, 127, 0.8);
+        }
+        50% {
+          text-shadow: 0 0 20px rgba(71, 129, 127, 0.8);
+        }
+      }
+
+      @keyframes flicker_edu_glow {
+        0%, 100% {
+          text-shadow: 0 0 10px rgba(0, 137, 255, 0.8);
+        }
+        25%, 75% {
+          text-shadow: 0 0 0 rgba(0, 137, 255, 0.8);
+        }
+        50% {
+          text-shadow: 0 0 20px rgba(0, 137, 255, 0.8);
+        }
+      }
+    
+  .committee p {
+    margin-top: 5px;
+  }
+
+  @media screen and (max-width: 530px) {
+     .committee h3{
+        font-size:small;
+   }
+   .committee p{
+    font-size:smaller;
+}
+.committee img {
+    max-width: 60px;
+  }
+ }
+ @media screen and (max-width: 280) {
+    .committee h3{
+       font-size:300px;
+  }
+  .committee p{
+   font-size:xx-small;
+}
+.committee img {
+   max-width: 30px;
+ }
 }

@@ -12,17 +12,17 @@ const Banner = () => {
         <div className="committee">
           <h3 className="cp_glow" >COMPETITIVE PROGRAMMING</h3>
           <img src='/images/cp_logo.jpg' alt="Committee 1" />
-          <p>Conquering Competitive Programming</p>
+          <p style={{color:"#B00707"}}>Conquering Competitive Programming</p>
         </div>
         <div className="committee">
           <h3 className="edu_glow">EDUCATION</h3>
           <img src='/images/education_logo.jpg' alt="Committee 3" />
-          <p>Teaching the World</p>
+          <p style={{color:"#0089FF"}}>Teaching the World</p>
         </div>
         <div className="committee">
           <h3  className="ai_glow" >ARTIFICIAL INTELLIGENCE</h3>
           <img src='/images/ai_logo.jpg' alt="Committee 2" />
-          <p>Building Artificial Intelligence</p>
+          <p style={{color:"#47817F"}}>Building Artificial Intelligence</p>
         </div>
         
        

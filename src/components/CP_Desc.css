@@ -3,7 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 60px;
+  }
+
+  .committee-desc-container-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
 
   }
   
@@ -14,16 +21,30 @@
     padding:20px;
     margin-right:90px;
   }
+  .text-section-EDU {
+    margin-left:90px;
+  }
   
   .text-section h1 {
     font-size: 35px; /* Adjust the font size as needed */
     margin-bottom: 10px;
     color: #B00707;
     text-shadow: 0 0 10px rgba(176, 7, 7, 0.8); /* Adjust the shadow properties as needed */
-    animation: flicker 5s ease-in-out infinite; /* Adjust the animation duration as needed */
+    animation: flicker_cp 5s ease-in-out infinite; /* Adjust the animation duration as needed */
   }
-  
-@keyframes flicker {
+  .text-section-EDU h1 {
+    color: #0089FF;
+    text-shadow: 0 0 10px rgba(0, 137, 255, 0.8);
+    animation: flicker_edu_glow 5s ease-in-out infinite;
+  }
+  .text-section-AI h1 {
+    color: #47817F; /* Another color */
+    text-shadow: 0 0 10px rgba(71, 129, 127, 0.8); /* Adjust the shadow properties as needed */
+    animation: flicker_ai_glow 5s ease-in-out infinite;
+  }
+
+
+@keyframes flicker_cp {
     0%, 100% {
       text-shadow: 0 0 10px rgba(176, 7, 7, 0.8);
     }
@@ -34,6 +55,31 @@
       text-shadow: 0 0 20px rgba(176, 7, 7, 0.8);
     }
   }
+  @keyframes flicker_edu_glow {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(0, 137, 255, 0.8);
+    }
+    25%, 75% {
+      text-shadow: 0 0 0 rgba(0, 137, 255, 0.8);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(0, 137, 255, 0.8);
+    }
+  }
+
+      @keyframes flicker_ai_glow {
+        0%, 100% {
+          text-shadow: 0 0 10px rgba(71, 129, 127, 0.8);
+        }
+        25%, 75% {
+          text-shadow: 0 0 0 rgba(71, 129, 127, 0.8);
+        }
+        50% {
+          text-shadow: 0 0 20px rgba(71, 129, 127, 0.8);
+        }
+      }
+
+
 
   .text-section p {
     font-size: 18px; /* Adjust the font size as needed */
@@ -54,3 +100,46 @@
     max-width: 100%;
     height: auto;
   }
+
+  @media screen and (max-width: 960px) {
+  
+    .text-section h1 {
+      font-size: 25px; /* Adjust the font size as needed */
+    }
+    .text-section p {
+      font-size: 13px; /* Adjust the font size as needed */
+    }
+    .committee-desc-container {
+      padding: 30px;
+    }
+    .text-section {
+      margin-right:40px;
+    }
+    .text-section-EDU {
+      margin-left:30px;
+      margin-right:0px;
+    }
+}
+@media screen and (max-width: 480px) {
+  .committee-desc-container {
+    flex-direction: column-reverse;
+    padding: 30px;
+  }
+  .committee-desc-container-edu {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .text-section{
+    max-width: 100%;
+    margin-right: 0;
+  }
+  
+  .banner-section {
+    max-width: 100%;
+  }
+
+  .text-section-EDU {
+    margin-left:0;
+  }
+}

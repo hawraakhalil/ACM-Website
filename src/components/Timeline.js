@@ -5,7 +5,7 @@ import './Timeline.css';
 import ShapeExample from './ShapeExample';
 
 const CP_COLOR= '#B00707'
-const ED_COLOR = '#9296F0'
+const ED_COLOR = '#0089FF'
 const AI_COLOR = '#47817F'
 
 const Timeline = () => {

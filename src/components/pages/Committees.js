@@ -2,17 +2,18 @@ import '../../App.css'
 import React from "react"
 import Footer from '../Footer'
 import Banner from '../Banner'
-import CP_Desc from '../CP_Desc'
-import EDU_Desc from '../EDU_Desc'
-import AI_Desc from '../AI_Desc'
+import CpDesc from '../CpDesc'
+import EduDesc from '../EduDesc'
+import AiDesc from '../AiDesc'
 
 function Committees() {
+  
     return (
         <>
             <Banner/>
-            <CP_Desc/>
-            <EDU_Desc/>
-            <AI_Desc/>
+            <CpDesc/>
+            <EduDesc/>
+            <AiDesc/>
             <Footer/>
         </>
     );

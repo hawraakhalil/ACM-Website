@@ -99,19 +99,22 @@
   }
 
   @media screen and (max-width: 530px) {
-     .committee h3{
-        font-size:small;
-   }
-   .committee p{
-    font-size:smaller;
+   .committees-container p{
+    font-size:14px;
 }
 .committee img {
-    max-width: 60px;
+    max-width: 80px;
   }
+  .committee p{
+    font-size:10px;
+}
+.committee h3{
+    font-size:10px;
+}
  }
  @media screen and (max-width: 280) {
     .committee h3{
-       font-size:300px;
+       font-size:xx-small;
   }
   .committee p{
    font-size:xx-small;

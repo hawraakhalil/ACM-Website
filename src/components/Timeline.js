@@ -2,11 +2,7 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './Timeline.css';
-import ShapeExample from './ShapeExample';
 
-const CP_COLOR= '#B00707'
-const ED_COLOR = '#0089FF'
-const AI_COLOR = '#47817F'
 
 const Timeline = () => {
     return (
@@ -14,7 +10,7 @@ const Timeline = () => {
 <VerticalTimeline lineColor={"black"}>
   <VerticalTimelineElement
     className="vertical-timeline-element"
-    contentStyle={{ background: '#B00707', color: 'black' }}
+    contentStyle={{ background: '#B00707', color: 'white' }}
     contentArrowStyle={{ borderRight: '7px solid #B00707' }}
     date="Feb, 2023"
     iconStyle={{ background: `url(${'/images/cp.jpg'})`, backgroundSize: 'cover', color: '#fff' }}
@@ -26,7 +22,7 @@ const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    contentStyle={{ background: '#840032', color: 'black' }}
+    contentStyle={{ background: '#840032', color: 'white' }}
     contentArrowStyle={{ borderRight: '7px solid #840032' }}
     date="Dec 22, 2023"
     iconClassName="border"
@@ -45,7 +41,7 @@ const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    contentStyle={{ background: '#B00707', color: 'black' }}
+    contentStyle={{ background: '#B00707', color: 'white' }}
     contentArrowStyle={{ borderRight: '7px solid #B00707' }}
     date="Oct 17, 2023"
     iconClassName="border"
@@ -67,7 +63,7 @@ const Timeline = () => {
     date="Oct 09, 2023"
     contentArrowStyle={{ borderRight: '7px solid #47817F' }}
     iconStyle={{ background: `url(${'/images/ai.jpg'})`, backgroundSize: 'cover', color: '#fff' }}
-    contentStyle={{ background: '#47817F', color: 'black' }}
+    contentStyle={{ background: '#47817F', color: 'white' }}
     iconClassName="border"
   >
     <h3>ACM AI Sessions</h3>
@@ -80,7 +76,7 @@ const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    contentStyle={{ background: '#B00707', color: 'black' }}
+    contentStyle={{ background: '#B00707', color: 'white' }}
     contentArrowStyle={{ borderRight: '7px solid #B00707' }}
     date="Aug 23, 2023"
     iconStyle={{ background: `url(${'/images/cp.jpg'})`, backgroundSize: 'cover', color: '#fff' }}
@@ -97,8 +93,8 @@ const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    contentStyle={{ background: '#8C52FF', color: 'black' }}
-    contentArrowStyle={{ borderRight: '7px solid #8C52FF' }}
+    contentStyle={{ background: '#0089FF', color: 'white' }}
+    contentArrowStyle={{ borderRight: '7px solid #0089FF' }}
     date="Aug 07, 2023"
     iconClassName="border"
     iconStyle={{ background: `url(${'/images/education.jpg'})`, backgroundSize: 'cover', color: '#fff' }}
@@ -118,7 +114,7 @@ const Timeline = () => {
     
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    contentStyle={{ background: '#840032', color: 'black' }}
+    contentStyle={{ background: '#840032', color: 'white' }}
     contentArrowStyle={{ borderRight: '7px solid #840032' }}
     date="Aug 28, 2023"
     iconClassName="border"
@@ -132,11 +128,11 @@ const Timeline = () => {
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
-    contentStyle={{ background: '#1F4684', color: 'black' }}
-    contentArrowStyle={{ borderRight: '7px solid #1F4684' }}
+    contentStyle={{ background: '#4FC3F7', color: 'white' }}
+    contentArrowStyle={{ borderRight: '7px solid #4FC3F7' }}
     date="2007"
     iconClassName="border"
-    iconStyle={{ background: `url(${'/images/acm_logo_red.jpg'})`, backgroundSize: 'cover', color: '#fff' }}
+    iconStyle={{ background: `url(${'/images/acm_logo_blue.jpg'})`, backgroundSize: 'cover', color: '#fff' }}
   >
     <h3 >PRE-FOUNDATION</h3>
     <p>

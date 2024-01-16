@@ -16,7 +16,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className='cards__items'>
             <CardItem
-              src='images/img-13.jpg'
+              src='images/img-15.jpg'
               text='Loauy Bazzy'
               label='Advisor'
               color='yellow'

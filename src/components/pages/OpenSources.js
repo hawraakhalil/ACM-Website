@@ -1,11 +1,13 @@
 import React from 'react'
 import OnlineCourse from "../OnlineCourse"
+import Footer from '../Footer'
 
 function OpenSources() {
   return (
-    <div>
+    <>
       <OnlineCourse/>
-    </div>
+      <Footer/>
+    </>
   )
 }
 

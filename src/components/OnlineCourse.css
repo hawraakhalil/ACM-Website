@@ -3,9 +3,9 @@
     border: 2px solid #ddd;
     border-radius:15px;
     padding: 15px;
-    margin:20px;
+    margin:30px;
   }
-  
+
   .image-container {
     flex: 1;
   }
@@ -18,7 +18,7 @@
   
   .course-details {
     flex: 2;
-    padding-left: 5%;
+    padding-left: 4%;
   }
 
   .course-details p{
@@ -28,7 +28,16 @@
   .course-details h2{
     margin-top:15px;
   }
-  
+
+  .details-with-icon {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 10px; /* Adjust the gap between the icon and the text */
+  }
+
+  .details-with-icon p {
+    margin: 0; /* Remove default margin to align with the icon */
+  }
   
   .buttons-container {
     margin-top: 10px;

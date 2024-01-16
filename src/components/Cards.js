@@ -164,7 +164,7 @@ function Cards() {
               email='mailto:lga23@mail.aub.edu'
             />
             <CardItem
-              src='images/img-13.jpg'
+              src='images/img-14.jpg'
               text='Pia Maria Chedid'
               label='DESIGN OFFICER'
               linkedin="https://www.linkedin.com/in/pia-maria-chedid-89251827b/"

@@ -24,7 +24,7 @@ const Footer = () => {
             <Link to="/Board">Board</Link>
           </li>
           <li>
-            <Link to="/OpenSource">Open Source</Link>
+            <Link to="/OpenSources">Open Source</Link>
           </li>
         </ul>
         <small className="website-rights">© ACM at AUB 2024</small>

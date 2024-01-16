@@ -60,7 +60,7 @@ function Navbar() {
                 </li>
                 <li>
               <Link
-                to='/OpenSource'
+                to='/OpenSources'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >

@@ -1,15 +1,55 @@
 import React from 'react'
 import './OnlineCourse.css'
+import SettingsIcon from '@mui/icons-material/Settings';
+import LanguageIcon from '@mui/icons-material/Language';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import PaymentIcon from '@mui/icons-material/Payment';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 function OnlineCourse() {
     return (
+        <>
+        <div>
         <div className="open-source-container">
           <div className="image-container">
             <img src="/images/course_image3.jpg" alt="Course Image" />
           </div>
           <div className="course-details">
             <h2>EECE 230X: Introduction to Computation and Programming Using Python</h2>
-            <p>Ct vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Ct accusamus et iusto iusto accusamus et iusto accusamus et iusto  odio et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores Ct vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti iusto quos dolores. </p>
+            <p>Dive into the field of computer science, irrespective of your coding experience using Python with an emphasis on elementary algorithmic ideas. </p>
+           
+            <div className="details-with-icon">
+            <SettingsIcon/>
+            <p>Format: F​ully Online (Asynchronous)​</p>
+            </div>
+                    
+            <div className="details-with-icon">
+                <LanguageIcon />
+                <p>Language: English & Arabic</p>
+            </div>
+
+            <div className="details-with-icon">
+                <CalendarMonthIcon />
+                <p>Next start date: TBD​</p>
+            </div>
+
+            <div className="details-with-icon">
+                <AccessTimeIcon />
+                <p>Length of program: 3 months</p>
+            </div>
+
+            <div className="details-with-icon">
+                <PaymentIcon />
+                <p>Total program tuition: FREE</p>
+            </div>
+            <div className="details-with-icon">
+                <DescriptionIcon />
+                <a href="../pdfs/syllabus.pdf" target="_blank" rel="noopener noreferrer">
+            Check the syllabus
+      </a>
+            </div>
+
             <div className="buttons-container">
               <a href="https://www.aub.edu.lb/msfea/ece/introduction-to-computation-and-programming-using-python/Pages/courses.aspx" className="button">
                 Learn Python at your own pace without receiving a certificate
@@ -20,6 +60,8 @@ function OnlineCourse() {
             </div>
           </div>
         </div>
+        </div>
+        </>
       );
     };
 export default OnlineCourse

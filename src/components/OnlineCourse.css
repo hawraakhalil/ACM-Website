@@ -62,3 +62,66 @@
   .button:hover {
     transform: scale(1.1); /* Added scale effect on hover */
   }
+
+  @media only screen and (max-width: 1024px) {
+    .open-source-container {
+        flex-direction: column; /* Change flex direction for smaller screens */
+        padding: 30px;
+      }
+    
+      .course-details {
+        padding-left: 0; /* Remove left padding for better layout in mobile view */
+      }
+}
+@media only screen and (max-width: 768px) {
+    .open-source-container {
+        flex-direction: column; /* Change flex direction for smaller screens */
+        padding: 30px;
+      }
+    
+      .course-details {
+        padding-left: 0; /* Remove left padding for better layout in mobile view */
+      }
+      .course-details h2{
+         font-size:large;
+      }
+      .course-details p{
+        font-size:small;
+     }
+     .buttons-container {
+        gap: 10px;
+      }
+      .buttons-container a {
+        font-size:small;
+      }
+      .details-with-icon a {
+        font-size:small;
+      }
+}
+
+@media only screen and (max-width: 480px) {
+    .open-source-container {
+        flex-direction: column; /* Change flex direction for smaller screens */
+        padding: 30px;
+      }
+    
+      .course-details {
+        padding-left: 0; /* Remove left padding for better layout in mobile view */
+      }
+      .course-details h2{
+         font-size:small;
+      }
+      .course-details p{
+        font-size:x-small;
+     }
+     .buttons-container a {
+        font-size:x-small;
+      }
+      .buttons-container {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        gap: 10px; /* Adjust the gap between buttons */
+      }
+      .details-with-icon a {
+        font-size:x-small;
+      }
+}

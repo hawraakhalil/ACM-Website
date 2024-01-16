@@ -27,7 +27,7 @@ const Footer = () => {
             <Link to="/OpenSource">Open Source</Link>
           </li>
         </ul>
-        <small className="website-rights">© ACM at AUB 2023</small>
+        <small className="website-rights">© ACM at AUB 2024</small>
       </div>
       <div className="right-section">
         <p>Follow us on social media</p>

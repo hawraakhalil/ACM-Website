@@ -1,0 +1,55 @@
+.open-source-container {
+    display: flex;
+    border: 2px solid #ddd;
+    border-radius:15px;
+    padding: 15px;
+    margin:20px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius:15px;
+  }
+  
+  .course-details {
+    flex: 2;
+    padding-left: 5%;
+  }
+
+  .course-details p{
+    margin-top:10px;
+    margin-bottom:15px;
+  }
+  .course-details h2{
+    margin-top:15px;
+  }
+  
+  
+  .buttons-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .button {
+    flex: 1; /* Added flex property */
+    margin-right: 5px; /* Added margin for spacing between buttons */
+    padding: 10px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .button:hover {
+    transform: scale(1.1); /* Added scale effect on hover */
+  }

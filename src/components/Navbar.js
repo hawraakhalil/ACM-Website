@@ -68,7 +68,7 @@ function Navbar() {
               </Link>
             </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline' whereTo='/OpenSource'>Open Sourses</Button>} 
+            {button && <Button buttonStyle='btn--outline' whereTo='/OpenSources'>Open Sourses</Button>} 
         </div>
       </nav>
     </>

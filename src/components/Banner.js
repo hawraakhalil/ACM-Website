@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="committees-container">
       <div className="top-section">
         <h2>Our Committees</h2>
-        <p>At AUB ACM, we consider our committees the pillars upon which our aspirations stand. Our student branch is currently composed of 3 committees</p>
+        <p>At AUB ACM, we consider our committees the pillars upon which our aspirations stand. Our student branch is currently composed of 3 committees.</p>
       </div>
       <div className="bottom-section">
         <div className="committee">

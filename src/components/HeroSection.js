@@ -10,7 +10,7 @@ function HeroSection() {
       <h1> THE ACM CLUB </h1>
       <p>The largest Computer Science community at AUB</p>
       <div className='hero-btns'>
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' whereTo='/About'>
+        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' whereTo='/AboutUs'>
             ABOUT US
         </Button>
 

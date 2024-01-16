@@ -7,6 +7,8 @@ import Board from './components/pages/Board'
 import Events from './components/pages/Events'
 import Committees from './components/pages/Committees'
 import AboutUs from './components/pages/AboutUs'
+import OpenSources from './components/pages/OpenSources'
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path='/Events' exact element={<Events/>} />
         <Route path='/Committees' exact element={<Committees/>} />
         <Route path='/AboutUs' exact element={<AboutUs/>} />
+        <Route path='/OpenSources' exact element={<OpenSources/>} />
       </Routes>
       </Router>
     </>

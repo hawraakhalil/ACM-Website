@@ -14,7 +14,7 @@ const AiDesc = () => {
         </div>
         </div>
         <div className="banner-section">
-          <img src="/images/ai_banner.jpg" alt="Rectangular Banner" />
+          <img src="/images/AI_banner.jpg" alt="Rectangular Banner" />
         </div>
       </div>
     );

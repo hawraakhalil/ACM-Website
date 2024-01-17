@@ -61,7 +61,6 @@ function Cards() {
               src='images/img-3.jpg'
               text='Anthony Khairallah'
               label='SECRETARY'
-              linkedin="anthony-khairallah"
               color='red'
               shadow={RED}
               email='mailto:adk05@mail.aub.edu'
@@ -138,7 +137,6 @@ function Cards() {
               src='images/img-11.jpg'
               text='Hashem Khodor'
               label='TECHNICAL OFFICER'
-              linkedin="hashem-khodor"
               color='blue'
               shadow={BLUE}
               email='mailto:hmk57@mail.aub.edu'

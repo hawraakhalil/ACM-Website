@@ -2,6 +2,8 @@ import React, { useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "./Button";
 import "./Navbar.css";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 
 function Navbar() {
@@ -35,7 +37,11 @@ function Navbar() {
             <h3> chapter at AUB  </h3>
             </Link>
             <div className="menu-icon" onClick={changeMenuIcon}>
-                <i className={click ? 'fas fa-times' : 'fa-solid fa-bars'}/>
+            {click ? (
+        <CloseIcon className="menu-icon" style={{color:"white"}}/>
+      ) : (
+        <MenuIcon className="menu-icon"  style={{color:"white"}} />
+      )}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>

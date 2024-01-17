@@ -31,16 +31,16 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div className="navbar-container">
+        <div className="navbar-container" >
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img src={'/images/acm_white.jpg'} style={{width:'60px'}} /> 
             <h3> chapter at AUB  </h3>
             </Link>
             <div className="menu-icon" onClick={changeMenuIcon}>
             {click ? (
-        <CloseIcon className="menu-icon" style={{color:"white"}}/>
+        <CloseIcon className="menu-icon" style={{color:"white", fontSize: '2.1rem'}}/>
       ) : (
-        <MenuIcon className="menu-icon"  style={{color:"white"}} />
+        <MenuIcon className="menu-icon"  style={{color:"white", fontSize: '2.1rem'}} />
       )}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>

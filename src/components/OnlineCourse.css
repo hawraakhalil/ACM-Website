@@ -63,6 +63,32 @@
     transform: scale(1.1); /* Added scale effect on hover */
   }
 
+
+  @media only screen and (max-width: 1280px) {
+    .open-source-container {
+        padding: 20px;
+      }
+      .course-details h2{
+         font-size:medium;
+         margin-top:0;
+      }
+      .course-details p{
+        margin-top:4.5px;
+        margin-bottom:0;
+        font-size:small;
+     }
+     .buttons-container {
+        gap: 10px;
+      }
+      .buttons-container a {
+        font-size:small;
+      }
+      .details-with-icon a {
+        font-size:small;
+      }
+}
+
+
   @media only screen and (max-width: 1024px) {
     .open-source-container {
         flex-direction: column; /* Change flex direction for smaller screens */
@@ -70,8 +96,8 @@
       }
     
       .course-details {
-        padding-left: 0; /* Remove left padding for better layout in mobile view */
-      }
+        padding-left: 0px; /* Remove left padding for better layout in mobile view */
+    }
 }
 @media only screen and (max-width: 768px) {
     .open-source-container {

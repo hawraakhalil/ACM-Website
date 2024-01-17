@@ -1,23 +1,36 @@
-
 .about-us-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-  }
-  .goal-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:10%;
-    height: 30vh;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+  padding-top:10vh;
+  padding:  5vw;
+  text-align: center;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.goal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 5vw;
+  text-align: center;
+}
 
   .about-us-left {
     text-align: center;
     margin-right: 5%; 
     padding: 10px;
-    max-width:50%;
+    max-width:48%;
     margin-left: 5%;
   }
 
@@ -25,44 +38,28 @@
     margin-bottom: 20px; /* Adjust the spacing as needed */
   }
   .about-us-right {
-    margin-right: 30px; /* Adjust the spacing as needed */
+    max-width: 30%; /* Adjust the width as needed */
+    margin-top: 10px; /* Adjust the margin as needed */
   }
 
   .about-us-left h2 {
     margin-bottom: 10px; /* Adjust the spacing as needed */
   }
-@media only screen and (max-width: 768px) {
-    .about-us-left {
-        max-width:100%;
-      }
-      .about-us-left p {
-       font-size: smaller; /* Adjust the spacing as needed */
-      }
-      .about-us-left h2 {
-        font-size:large; /* Adjust the spacing as needed */
-       }
-       .about-us-container {
-        height: 60vh;
-      }
-      .goal-container {
-        height: 25vh;
-      }
+  
+
+@media only screen and (max-width: 480px) {
+.about-us-left h2 {
+  font-size:15px;
+  margin-bottom: 5px;
+}
+.about-us-left p {
+  font-size:10px;
+}
+.about-us-left {
+  margin-right: 0; 
+  padding: 10px;
+  max-width:60%;
+  margin-left: 0;
 }
 
-@media only screen and (max-width: 400px) {
-    .about-us-left {
-        max-width:100%;
-      }
-      .about-us-left p {
-       font-size: xx-small; /* Adjust the spacing as needed */
-      }
-      .about-us-left h2 {
-        font-size:small; /* Adjust the spacing as needed */
-       }
-       .about-us-container {
-        height: 60vh;
-      }
-      .goal-container {
-        height: 20vh;
-      }
 }

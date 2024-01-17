@@ -1,24 +1,27 @@
-import React from 'react'
-import {motion} from "framer-motion"
-import "./Animation.css"
-import MySvg from "./acm_logo.svg"
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import './Animation.css';
+import MySvg from './acm_logo.svg';
 
 const Animation = () => {
+  const [isTapped, setIsTapped] = useState(false);
 
+  const handleClick = () => {
+    setIsTapped(!isTapped);
+  };
 
   return (
-    <div className="container">
-        <motion.img 
-        src={MySvg} 
+    <div className="container" onClick={handleClick}>
+      <motion.img
+        src={MySvg}
         animate={{
-            y: [50, -100, -100, 50],
-            rotate: [0, 0, 360, 360],
-            transition: {repeat:Infinity, duration: 2},
-          }}
-        transition={{repeat:Infinity}}
-        /> 
+          y: isTapped ? [0, -100, -100, 0] : 0,
+          rotate: isTapped ? [0, 0, 360, 360] : 0,
+        }}
+        transition={{ duration: 2 }}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Animation
+export default Animation;

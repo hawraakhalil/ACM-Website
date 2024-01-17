@@ -24,7 +24,7 @@ function AboutUs() {
             transition={{ duration: 1 }}
             className="fun-message"
           >
-            <p>Try to figure out what each logo does!</p>
+            <p>Figure out what each logo does!</p>
             <button onClick={handleHideMessage}>Got it!</button>
           </motion.div>
         )}

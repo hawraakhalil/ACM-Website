@@ -7,7 +7,7 @@
   }
   
   .top-section {
-    margin-top: 20px; 
+    margin-top: 35px; 
     margin-bottom: 25px; /* Added margin between top and bottom sections */
     text-align: center;
   }
@@ -24,19 +24,20 @@
   
   .bottom-section {
     display: flex;
-    flex-direction: row; /* Changed to column layout */
+    flex-direction: row; 
     align-items: center;
+    
   }
   
   .committee {
     text-align: center;
     display: flex;
-    flex-direction: column; /* Added flexbox column layout */
+    flex-direction: column;
     align-items: center;
   }
   
   .committee img {
-    max-width: 65%;
+    max-width: 50%;
     height: auto;
   }
   
@@ -102,29 +103,38 @@
   }
 
   @media screen and (max-width: 530px) {
-   .committees-container p{
-    font-size:14px;
-}
-.committee img {
-    max-width: 80px;
-  }
-  .committee p{
-    font-size:10px;
-    max-width:90%;
-    justify-content:center;
-}
-.committee h3{
-    font-size:10px;
-}
+    .committees-container p{
+     font-size:14px;
  }
- @media screen and (max-width: 280) {
-    .committee h3{
-       font-size:xx-small;
-  }
-  .committee p{
-   font-size:xx-small;
-}
-.committee img {
-   max-width: 30px;
+ .committee img {
+     max-width: 80px;
+   }
+   .committee p{
+     font-size:10px;
+     max-width:90%;
+     justify-content:center;
  }
-}
+ .committee h3{
+     font-size:10px;
+ }
+  }
+  @media screen and (max-width: 280) {
+     .committee h3{
+        font-size:xx-small;
+   }
+   .committee p{
+    font-size:xx-small;
+ }
+ .committee img {
+    max-width: 30px;
+  }
+ }
+
+ 
+ @media screen and (min-width: 1024px) {
+  .bottom-section {
+    padding-left:100px;
+    padding-right:100px;
+    margin-bottom:20px;
+  }
+ }

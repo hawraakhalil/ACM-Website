@@ -2,7 +2,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    background-color: #9e77d2; /* Adjust the color as needed */
+    background-color: #840032; /* Adjust the color as needed */
     color: #fff; /* Adjust the color as needed */
     padding: 10px;
     text-align: center;
@@ -14,7 +14,7 @@
   
   .fun-message button {
     background-color: white; /* Adjust the color as needed */
-    color: #9e77d2; /* Adjust the color as needed */
+    color: #840032; /* Adjust the color as needed */
     border: none;
     border-radius:3px;
     padding: 5px 10px;

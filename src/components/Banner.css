@@ -30,6 +30,9 @@
   
   .committee {
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Added flexbox column layout */
+    align-items: center;
   }
   
   .committee img {
@@ -107,6 +110,8 @@
   }
   .committee p{
     font-size:10px;
+    max-width:90%;
+    justify-content:center;
 }
 .committee h3{
     font-size:10px;

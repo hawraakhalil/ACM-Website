@@ -70,11 +70,11 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Open Sourses
+                Open Sources
               </Link>
             </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline' whereTo='/OpenSources'>Open Sourses</Button>} 
+            {button && <Button buttonStyle='btn--outline' whereTo='/OpenSources'>Open Sources</Button>} 
         </div>
       </nav>
     </>

@@ -1,13 +1,86 @@
 .cards {
-    padding: 4rem;
-    background: #fff;
-  }
-  
-  h1 {
+  padding: 4rem;
+  background: #fff;
+  text-align: center; /* Center the text within the cards container */
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* Center the header content horizontally */
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: xxx-large;
+  margin: 0; /* Remove default margin to prevent spacing issues */
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block; 
+  margin-left:20px;
+}
+
+.dropbtn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius:5px;
+  border-bottom: 2px solid #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  border-radius:5px;
+  width: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff; /* Set the initial text color */
+  padding: 10px 10px;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  display: block;
+  transition: color 0.3s;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none; /* Remove the border for the last choice */
+}
+
+.dropbtn:hover {
+  background-color: #840032; /* Change the button background color on hover */
+}
+
+.dropdown-content a:hover {
+  color: #840032;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Responsive styles for small screens */
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
     text-align: center;
-    margin-bottom: 24px;
-    font-size:xxx-large;
   }
+}
+
   @media screen and (max-width: 960px) {
     h1 {
       font-size: 30px;

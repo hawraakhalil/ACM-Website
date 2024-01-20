@@ -42,3 +42,11 @@
     color: #fff;
     font-size: 100px;
   }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  

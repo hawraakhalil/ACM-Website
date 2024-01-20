@@ -10,16 +10,7 @@ const YELLOW='0 6px 20px rgba(56, 125, 255, 0.17), 0 0 10px rgba(245, 255, 56, 0
 function Cards() {
   return (
     <div className='cards'>
-      <div className='header'>
         <h1>MEET THE TEAM</h1>
-        <div className='dropdown'>
-          <button className='dropbtn'>Spring 2024</button>
-          <div className='dropdown-content'>
-            <a href='#'>Fall 2023</a>
-            <a href='#'>Spring 2023</a>
-          </div>
-        </div>
-      </div>
       <h2 >CLUB ADVISOR</h2>
       <div className="cards__container">
         <div className="cards__wrapper">

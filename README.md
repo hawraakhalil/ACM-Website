@@ -43,6 +43,21 @@ This project utilizes the following libraries and frameworks to enhance function
   - `@mui/icons-material`: Material-UI Icons.
   - `@mui/material`: Material-UI core components.
   - `@mui/styled-engine-sc`: Styled components integration for Material-UI.
+  
+- **Bootstrap:** Front-end framework for building responsive and modern web applications.
+  - `bootstrap`: Core Bootstrap styles and scripts.
+
+- **Bootstrap Icons:** Icons for use with Bootstrap.
+  - `bootstrap-icons`: A library of SVG icons to be used with Bootstrap.
+
+- **FontAwesome:** Icon library for vector icons and social logos.
+  - `fontawesome`: Used for including FontAwesome icons.
+
+- **Framer Motion:** Animation library for React.
+  - `framer-motion`: Used for creating animations.
+  
+- **React Vertical Timeline Component:** A vertical timeline component for React.
+  - `react-vertical-timeline-component`: Used for displaying a vertical timeline.
 
 - **Testing Library:** Used for testing React components.
   - `@testing-library/jest-dom`: Custom jest matchers for testing DOM elements.
@@ -52,23 +67,11 @@ This project utilizes the following libraries and frameworks to enhance function
 - **Babel Macros:** Babel plugin for writing compile-time evaluated code.
   - `babel-plugin-macros`: Enables the use of Babel macros.
 
-- **Bootstrap:** Front-end framework for building responsive and modern web applications.
-  - `bootstrap`: Core Bootstrap styles and scripts.
-
-- **Bootstrap Icons:** Icons for use with Bootstrap.
-  - `bootstrap-icons`: A library of SVG icons to be used with Bootstrap.
-
-- **Framer Motion:** Animation library for React.
-  - `framer-motion`: Used for creating animations.
-
 - **React Router DOM:** Declarative routing for React applications.
   - `react-router-dom`: Handles navigation and routing in your React app.
 
 - **React Scripts:** Configuration and scripts for Create React App.
   - `react-scripts`: Provides scripts for starting, building, and testing your React app.
-
-- **React Vertical Timeline Component:** A vertical timeline component for React.
-  - `react-vertical-timeline-component`: Used for displaying a vertical timeline.
 
 - **Styled Components:** Library for styling React components.
   - `styled-components`: Used for creating styled components in React.

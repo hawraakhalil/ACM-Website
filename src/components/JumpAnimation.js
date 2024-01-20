@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './Animation.css';
 import MySvg from './acm_logo.svg';
 
-const Animation = () => {
+const JumpAnimation = () => {
   const [isTapped, setIsTapped] = useState(false);
 
   const handleClick = () => {
@@ -24,4 +24,4 @@ const Animation = () => {
   );
 };
 
-export default Animation;
+export default JumpAnimation;

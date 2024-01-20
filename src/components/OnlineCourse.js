@@ -13,7 +13,7 @@ function OnlineCourse() {
         <div>
         <div className="open-source-container">
           <div className="image-container">
-            <img src="/images/course_image3.jpg" alt="Course Image" />
+            <img src="/images/course_image3.jpg" alt="Course Pic" />
           </div>
           <div className="course-details">
             <h2>EECE 230X: Introduction to Computation and Programming Using Python</h2>

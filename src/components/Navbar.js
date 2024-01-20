@@ -33,7 +33,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className="navbar-container" >
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img src={'/images/acm_white.jpg'} style={{width:'60px'}} /> 
+            <img src={'/images/acm_white.jpg'} alt="acm logo" style={{width:'60px'}} /> 
             <h3> chapter at AUB  </h3>
             </Link>
             <div className="menu-icon" onClick={changeMenuIcon}>

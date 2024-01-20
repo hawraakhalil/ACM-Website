@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import "./Animation.css"
 import MySvg from './acm_logo.svg';
 
-function Animation2() {
+function DragAnimation() {
 
     return (
         <div className="container">
@@ -21,4 +21,4 @@ function Animation2() {
       )
     }
 
-export default Animation2
+export default DragAnimation

@@ -1,6 +1,6 @@
 import React from 'react';
 import './AcmDesc.css';
-import Animation from "./Animation"
+import Animation from "./JumpAnimation"
 
 const AcmDescSection = () => {
   return (

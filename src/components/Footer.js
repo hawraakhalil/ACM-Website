@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="left-section">
-        <img src="images/aub_logo.jpg" alt="Image" />
+        <img src="images/aub_logo.jpg" alt="AUB logo" />
       </div>
       <div className="center-section">
         <h4>Pages</h4>

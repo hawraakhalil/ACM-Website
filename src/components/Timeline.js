@@ -8,19 +8,7 @@ const Timeline = () => {
     return (
 
 <VerticalTimeline lineColor={"black"}>
-  <VerticalTimelineElement
-    className="vertical-timeline-element"
-    contentStyle={{ background: '#B00707', color: 'white' }}
-    contentArrowStyle={{ borderRight: '7px solid #B00707' }}
-    date="Feb, 2023"
-    iconStyle={{ background: `url(${'/images/cp.jpg'})`, backgroundSize: 'cover', color: '#fff' }}
-    iconClassName="border"
-  >
-    <h3>COMPETITIVE PROGRAMMING COMPETITION</h3>
-    <p>
-     Desc
-    </p>
-  </VerticalTimelineElement>
+
   <VerticalTimelineElement
     contentStyle={{ background: '#840032', color: 'white' }}
     contentArrowStyle={{ borderRight: '7px solid #840032' }}

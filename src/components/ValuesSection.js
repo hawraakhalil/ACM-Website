@@ -17,7 +17,7 @@ function ValuesSection() {
             invest in their personal growth and develop computing 
             skills with our guidance and support.
             </p>
-            <p style={{marginTop:"20px"}}>Check out our <a  href="../pdfs/bylaws.pdf" target="_blank" rel="noopener noreferrer" >Bylaws</a> and <a href="../pdfs/bylaws.pdf"   target="_blank" rel="noopener noreferrer"  >Best Practices</a> to learn more about us!</p>
+            <p style={{marginTop:"20px"}}>Check out our <a  href="../pdfs/bylaws.pdf" target="_blank" rel="noopener noreferrer" >Bylaws</a> to learn more about us!</p>
           </div>
         </div>
         <div className="about-us-right">

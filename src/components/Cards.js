@@ -140,6 +140,7 @@ function Cards() {
               color='blue'
               shadow={BLUE}
               email='mailto:hmk57@mail.aub.edu'
+              linkedin='https://www.linkedin.com/in/hashem-khodor-1793a2221/'
             />
           </ul>
           <ul className='cards__items'>

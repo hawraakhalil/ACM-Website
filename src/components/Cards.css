@@ -3,38 +3,23 @@
   background: #fff;
 }
 
-
 .header {
   display: flex;
-  justify-content: center; /* Center the header content horizontally */
+  justify-content: center;
   align-items: center;
   margin-bottom: 24px;
 }
 
-
 h1 {
   text-align: center;
   margin-bottom: 24px;
-  font-size:xxx-large;
-}
-@media screen and (max-width: 960px) {
-  h1 {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: xx-large;
-  }
-}
-@media screen and (max-width: 600px) {
-  .header {
-    flex-direction: column;
-    text-align: center;
-  }
+  font-size: xxx-large;
 }
 
 .dropdown {
   position: relative;
-  display: inline-block; 
-  margin-left:20px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .dropbtn {
@@ -45,7 +30,7 @@ h1 {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  border-radius:5px;
+  border-radius: 5px;
   border-bottom: 2px solid #fff;
 }
 
@@ -53,14 +38,14 @@ h1 {
   display: none;
   position: absolute;
   background-color: #000;
-  border-radius:5px;
+  border-radius: 5px;
   width: auto;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: #fff; /* Set the initial text color */
+  color: #fff;
   padding: 10px 10px;
   text-decoration: none;
   border-bottom: 2px solid #fff;
@@ -69,11 +54,11 @@ h1 {
 }
 
 .dropdown-content a:last-child {
-  border-bottom: none; /* Remove the border for the last choice */
+  border-bottom: none;
 }
 
 .dropbtn:hover {
-  background-color: #840032; /* Change the button background color on hover */
+  background-color: #840032;
 }
 
 .dropdown-content a:hover {
@@ -99,12 +84,11 @@ h2 {
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;    
+  margin: 50px 0 45px;
 }
 
 .cards__items {
   margin-bottom: 24px;
-
 }
 
 .cards__item {
@@ -112,13 +96,8 @@ h2 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+}
 
-}
-@media  screen and (min-width: 1280px) {
-  .cards__item {
-    min-width: 220px;
-  }
-}
 
 .cards__item__link {
   display: flex;
@@ -144,12 +123,14 @@ h2 {
   padding-top: 67%;
   overflow: hidden;
 }
+
 .cards__item__pic-wrap-yellow {
   position: relative;
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
 }
+
 .cards__item__pic-wrap-green {
   position: relative;
   width: 100%;
@@ -175,6 +156,7 @@ h2 {
   background-color: #1f98f4;
   box-sizing: border-box;
 }
+
 .cards__item__pic-wrap-red::after {
   content: attr(data-category);
   position: absolute;
@@ -202,6 +184,7 @@ h2 {
   background-color: #edf41f;
   box-sizing: border-box;
 }
+
 .cards__item__pic-wrap-green::after {
   content: attr(data-category);
   position: absolute;
@@ -243,14 +226,8 @@ h2 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
-  text-align: center; /* Center the text horizontally */
+  text-align: center;
   padding-bottom: 9px;
-}
-
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -259,6 +236,32 @@ h2 {
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cards__item {
+    min-width: 220px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: xx-large;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   .cards__item {

@@ -41,7 +41,7 @@ function CardItem(props) {
                   style={{
                     color: "gray",
                     fontSize: "37px",
-                    pointerEvents: "none", // Disable pointer events
+                    pointerEvents: "none",
                   }}
                 />
               )}

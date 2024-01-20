@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import MySvg from "./acm_logo.svg"
-import './Animation.css';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import MySvg from "./acm_logo.svg";
+import "./Animation.css";
 
 const getRandomPosition = () => {
   const positions = [-100, -100, 100, 100];

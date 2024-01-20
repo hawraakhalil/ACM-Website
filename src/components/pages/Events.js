@@ -1,15 +1,15 @@
-import '../../App.css'
-import React from "react"
-import Footer from '../Footer'
-import Timeline from '../Timeline'
+import "../../App.css";
+import React from "react";
+import Footer from "../Footer";
+import Timeline from "../Timeline";
 
 function Events() {
-    return (
-        <>
-            <Timeline/>
-            <Footer/>
-        </>
-    );
+  return (
+    <>
+      <Timeline />
+      <Footer />
+    </>
+  );
 }
 
 export default Events;

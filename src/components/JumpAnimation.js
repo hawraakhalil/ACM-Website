@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import './Animation.css';
-import MySvg from './acm_logo.svg';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import "./Animation.css";
+import MySvg from "./acm_logo.svg";
 
 const JumpAnimation = () => {
   const [isTapped, setIsTapped] = useState(false);

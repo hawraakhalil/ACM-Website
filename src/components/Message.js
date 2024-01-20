@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import './Message.css'; 
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import "./Message.css";
 
 function Message() {
+  const [showMessage, setShowMessage] = useState(true);
 
-    const [showMessage, setShowMessage] = useState(true);
-
-    const handleHideMessage = () => {
-      setShowMessage(false);
-    };
-  
+  const handleHideMessage = () => {
+    setShowMessage(false);
+  };
 
   return (
     <div>
-       <AnimatePresence>
+      <AnimatePresence>
         {showMessage && (
           <motion.div
             initial={{ opacity: 0, y: -50 }}
@@ -28,7 +26,7 @@ function Message() {
         )}
       </AnimatePresence>
     </div>
-  )
+  );
 }
 
-export default Message
+export default Message;

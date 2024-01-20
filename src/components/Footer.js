@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import React from 'react';
-import './Footer.css';
+import { Link } from "react-router-dom";
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -32,21 +32,21 @@ const Footer = () => {
       <div className="right-section">
         <p>Follow us on social media</p>
         <div className="social-icons">
-        <Link
-          class='social-icon-link instagram'
-          to='https://www.instagram.com/acm_aub/'
-          target='_blank'
-          aria-label='Instagram'
+          <Link
+            class="social-icon-link instagram"
+            to="https://www.instagram.com/acm_aub/"
+            target="_blank"
+            aria-label="Instagram"
           >
-          <i class='fab fa-instagram' />
+            <i class="fab fa-instagram" />
           </Link>
           <Link
-          class='social-icon-link Linkedin'
-          to='https://www.linkedin.com/company/aub-acm/mycompany/'
-          target='_blank'
-          aria-label='LinkedIn'
+            class="social-icon-link Linkedin"
+            to="https://www.linkedin.com/company/aub-acm/mycompany/"
+            target="_blank"
+            aria-label="LinkedIn"
           >
-          <i class='fab fa-linkedin' />
+            <i class="fab fa-linkedin" />
           </Link>
         </div>
       </div>

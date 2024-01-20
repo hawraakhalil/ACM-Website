@@ -1,22 +1,26 @@
 .footer-container {
   background-color: #242424;
-  padding: 4rem 2rem 2rem 2rem; 
+  padding: 4rem 2rem 2rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .center-section li a {
 
-  text-decoration: underline; /* Add underline on hover if desired */
-  color:white;
+  text-decoration: underline;
+  /* Add underline on hover if desired */
+  color: white;
 }
 
 .center-section li a:hover {
-  color: blueviolet; /* Set link color */
+  color: blueviolet;
+  /* Set link color */
 }
 
 .left-section img {
-  width: 200px; /* Adjust the width as needed */
+  width: 200px;
+  /* Adjust the width as needed */
   height: auto;
 }
 
@@ -46,61 +50,79 @@
 
 .right-section p {
   margin-bottom: 1rem;
-  text-align:center;
+  text-align: center;
 }
 
 .social-icons {
   display: flex;
-  justify-content: center; /* Center the icons horizontally */
-  align-items: center; /* Center the icons vertically */
+  justify-content: center;
+  /* Center the icons horizontally */
+  align-items: center;
+  /* Center the icons vertically */
 }
 
 .social-icon-link {
   text-decoration: none;
-  margin-right: 10px; /* Adjust the spacing between icons */
-  margin-left:10px;
+  margin-right: 10px;
+  /* Adjust the spacing between icons */
+  margin-left: 10px;
 }
 
 .social-icon-link i {
-  font-size: 2rem; /* Adjust the font size as needed */
+  font-size: 2rem;
+  /* Adjust the font size as needed */
   color: white;
   transition: color 0.3s ease;
 }
+
 .social-icon-link:hover i {
-  color: blueviolet; /* Change to the desired color on hover */
+  color: blueviolet;
+  /* Change to the desired color on hover */
 }
+
 @media screen and (min-width: 960px) {
 
   .social-icon-link i {
-    font-size: 4rem; /* Adjust the font size as needed */
+    font-size: 4rem;
+    /* Adjust the font size as needed */
   }
+
   .footer-container {
-    padding: 4rem 16rem 2rem 10rem; 
+    padding: 4rem 16rem 2rem 10rem;
   }
+
   .left-section img {
-    width: 250px; /* Adjust the width as needed */
+    width: 250px;
+    /* Adjust the width as needed */
   }
+
   .center-section h4 {
     font-size: larger;
   }
 }
+
 @media screen and (max-width: 480px) {
   .social-icon-link {
-    margin-right: 5px; /* Adjust the spacing between icons */
+    margin-right: 5px;
+    /* Adjust the spacing between icons */
   }
+
   .left-section img {
     width: 120px;
   }
+
   .center-section h4 {
     margin-bottom: 0.5rem;
     font-size: small;
   }
+
   .center-section li {
     font-size: x-small;
     margin-bottom: 0.2rem;
   }
+
   .right-section p {
-    font-size:x-small;
+    font-size: x-small;
   }
 
 }

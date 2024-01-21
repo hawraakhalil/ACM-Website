@@ -13,6 +13,7 @@ function HeroSection() {
         <Button
           className="btns"
           buttonStyle="btn--outline"
+          buttonSize="btn--large"
           whereTo="/AboutUs"
         >
           ABOUT US

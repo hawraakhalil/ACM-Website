@@ -1,6 +1,6 @@
 import React from "react";
 import "./AcmDesc.css";
-import Animation2 from "./DragAnimation";
+import Animation2 from "./SquareAnimation";
 
 function ValuesSection() {
   return (

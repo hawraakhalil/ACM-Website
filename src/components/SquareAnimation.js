@@ -3,29 +3,31 @@ import { motion } from "framer-motion";
 import "./Animation.css";
 import MySvg from "./acm_logo.svg";
 
-const JumpAnimation = () => {
-  const [isTapped, setIsTapped] = useState(false);
+const SquareAnimation = () => {
+  const [tapCount, setTapCount] = useState(0);
 
   const handleClick = () => {
-    setIsTapped(!isTapped);
+    setTapCount((prevCount) => (prevCount + 1) % 5);
   };
 
   return (
     <div className="container" onClick={handleClick}>
-    <motion.img
-      src={MySvg}
-      animate={{
-        y: isTapped ? [0, -100] : 0,
-        rotate: isTapped ? [0, 360] : 0,
-      }}
-      transition={{
-        type: 'tween', // Use tween for smooth transitions
-        duration: 0.6, // Total duration for both animations
-        ease: 'easeInOut', // Easing function for smooth animation
-      }}
-    />
-  </div>
-);
+      <motion.img
+        src={MySvg}
+        animate={{
+          y: tapCount === 1 ? -100 : tapCount === 3 ? 100 : 0,
+          x: tapCount === 0 ? -100 : tapCount === 2 ? 100 : 0,
+          rotate: tapCount % 2 === 1 ? 180 : 0,
+        }}
+        transition={{
+          type: 'tween',
+          duration: 0.6,
+          ease: 'easeInOut',
+        }}
+      />
+    </div>
+  );
 };
 
-export default JumpAnimation;
+
+export default SquareAnimation;

@@ -73,7 +73,7 @@ function Cards() {
             <CardItem
               src="images/img-5.jpg"
               text="Artur Baboudijian"
-              label="MEMBERSHIP AND PUBLIC RELATIONS"
+              label="MEMBERSHIP AND PUBLIC RELATIONS OFFICER"
               linkedin="https://www.linkedin.com/in/artur-baboudjian-2a6311258/"
               color="red"
               shadow={RED}

@@ -21,7 +21,7 @@ function Message() {
             className="fun-message"
           >
             <p>Figure out what each logo does! 👀 </p>
-            <button onClick={handleHideMessage}>Will do!</button>
+            <button onClick={handleHideMessage}>Got it!</button>
           </motion.div>
         )}
       </AnimatePresence>

@@ -20,7 +20,7 @@ function Message() {
             transition={{ duration: 1 }}
             className="fun-message"
           >
-            <p>Figure out what each logo does!</p>
+            <p>Figure out what each logo does! 👀 </p>
             <button onClick={handleHideMessage}>Got it!</button>
           </motion.div>
         )}

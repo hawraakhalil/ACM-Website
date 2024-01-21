@@ -7,21 +7,24 @@ const AcmDescSection = () => {
     <div className="about-us-container">
       <div className="about-us-content">
         <div className="about-us-left">
-          <h2>What is ACM?</h2>
+          <h2> 🚀 About ACM AUB: Igniting Minds, Fostering Futures </h2>
           <div>
             <p>
-              The ACM AUB Student Branch at the American University of Beirut
-              (AUB) is a student-led organization dedicated to fostering a
-              thriving computing community within AUB and Lebanon.
+            Welcome to the vibrant hub of innovation and collaboration – 
+            the ACM AUB Student Branch at the prestigious American 
+            University of Beirut (AUB). We are not just an organization; 
+            we are the driving force behind a dynamic computing community
+            within AUB and across the landscapes of Lebanon.
             </p>
           </div>
           <div>
             <p>
-              ACM AUB is a non-political and non-religious entity that warmly
-              welcomes all AUB students, regardless of their backgrounds. We
-              strongly believe in academic excellence, education, and
-              technological advancement, always emphasizing the responsible and
-              ethical use of technology for positive societal impact.
+            Here at ACM AUB, we embrace diversity and open our arms to every
+            AUB student, regardless of their backgrounds. Non-political, 
+            student-lead, and ever-dedicated, we stand as a beacon of 
+            academic excellence, education, and technological advancement.
+            Our compass always points towards the responsible and ethical
+            use of technology for a positive societal impact.
             </p>
           </div>
         </div>

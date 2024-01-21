@@ -12,16 +12,20 @@ const JumpAnimation = () => {
 
   return (
     <div className="container" onClick={handleClick}>
-      <motion.img
-        src={MySvg}
-        animate={{
-          y: isTapped ? [0, -100, -100, 0] : 0,
-          rotate: isTapped ? [0, 0, 360, 360] : 0,
-        }}
-        transition={{ duration: 1.1 }}
-      />
-    </div>
-  );
+    <motion.img
+      src={MySvg}
+      animate={{
+        y: isTapped ? [0, -100] : 0,
+        rotate: isTapped ? [0, 360] : 0,
+      }}
+      transition={{
+        type: 'tween', // Use tween for smooth transitions
+        duration: 0.6, // Total duration for both animations
+        ease: 'easeInOut', // Easing function for smooth animation
+      }}
+    />
+  </div>
+);
 };
 
 export default JumpAnimation;

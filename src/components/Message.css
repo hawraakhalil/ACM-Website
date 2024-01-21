@@ -1,5 +1,5 @@
 .fun-message {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   background-color: #840032;

@@ -27,8 +27,7 @@ function AboutUs() {
       <ValuesSection />
       <div className="closing-banner">
         <p className="medium-font">
-          🌐💻👾 ACM AUB - Shaping Minds, Building Futures, Coding Lebanon’s
-          Tomorrow!
+        🦾👾🏆🎮 ACM AUB - Shaping Minds, Building Futures, Coding Lebanon’s Tomorrow!
         </p>
       </div>
       <Footer />

@@ -14,12 +14,6 @@ function Committees() {
       <CpDesc />
       <EduDesc />
       <AiDesc />
-      <div className="closing-banner">
-        <p className="medium-font">
-          🌐💻👾 Join us in shaping the future of technology, one committee at a
-          time. Let's code, educate, and innovate together!
-        </p>
-      </div>
       <Footer />
     </>
   );

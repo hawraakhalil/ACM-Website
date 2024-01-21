@@ -155,15 +155,15 @@
   }
 
   .text-section p {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   .text-section-EDU p {
-    font-size: 12px;
+    font-size: 12px !important;;
   }
 
   .text-section-EDU h1 {
-    font-size: 23px;
+    font-size: 23px ;
   }
 
   .text-section h1 {

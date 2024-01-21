@@ -6,6 +6,9 @@ function Vision() {
   return (
     <div className="goal-container">
       <div className="about-us-content">
+        <div className="about-us-right">
+          <DragAnimation />
+        </div>
         <div className="about-us-left">
           <h2>🌐 Spreading the Coding Vibe Across Lebanon</h2>
           <div>
@@ -17,9 +20,6 @@ function Vision() {
             community that echoes with the rhythm of progress.
             </p>
           </div>
-        </div>
-        <div className="about-us-right">
-          <DragAnimation />
         </div>
       </div>
     </div>

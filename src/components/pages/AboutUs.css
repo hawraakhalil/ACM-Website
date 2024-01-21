@@ -5,25 +5,24 @@
     justify-content: center;
     text-align: center;
     margin-top: 75px;
-  }
-  
-  .large-font {
-    font-size:35px; 
+}
+
+.large-font {
+    font-size: 35px;
     padding-bottom: 10px;
-  }
-  
-  .medium-font {
+}
+
+.medium-font {
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  
-  .closing-banner {
+}
+
+.closing-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 20px 0;
-  }
-  
+}

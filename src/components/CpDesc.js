@@ -8,19 +8,20 @@ const CpDesc = () => {
       <div className="text-section">
         <h1>acm CP</h1>
         <p>
-          The Competitive Programming Committee is a platform to teach and train
-          students for programming competitions and careers in the tech
-          industry. It does this by leveraging the experience of advanced
-          student competitors and experienced alumni to teach students and
-          attract new talent, as well as hosting competitions and workshops.
-          Check out our events{" "}
+          Our Competitive Programming Committee is not just a platform; it's a
+          launchpad for students aspiring to conquer programming competitions
+          and thrive in the tech industry. We harness the wisdom of seasoned
+          student competitors and accomplished and experienced alumni to impart
+          knowledge, attract fresh talent, and elevate skills. Dive into a world
+          of competitions, workshops, and endless possibilities. Explore our
+          events{" "}
           <Link
             to="/Events"
             style={{ color: "blue", textDecoration: "underline" }}
           >
             here
-          </Link>
-          .
+          </Link>{" "}
+          and join the coding revolution!
         </p>
       </div>
       <div className="banner-section">

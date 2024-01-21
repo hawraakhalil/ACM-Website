@@ -17,18 +17,24 @@ const SquareAnimation = () => {
         initial={{ x: 0, y: 0 }}
         animate={{
           y: tapCount === 1 ? -100 : tapCount === 3 ? 100 : 0,
-          x: tapCount === 0 ? -100 : tapCount === 2 ? 100 : tapCount === 4 ? 0 : 0,
+          x:
+            tapCount === 0
+              ? -100
+              : tapCount === 2
+              ? 100
+              : tapCount === 4
+              ? 0
+              : 0,
           rotate: tapCount % 2 === 1 ? 180 : 0,
         }}
         transition={{
-          type: 'tween',
+          type: "tween",
           duration: 0.6,
-          ease: 'easeInOut',
+          ease: "easeInOut",
         }}
       />
     </div>
   );
 };
-
 
 export default SquareAnimation;

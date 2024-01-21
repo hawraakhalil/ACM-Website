@@ -9,17 +9,19 @@ const AiDesc = () => {
         <div className="text-section-AI">
           <h1>acm AI</h1>
           <p>
-            The Artificial Intelligence Committee’s goal is to teach students
-            about ML and empower them to be able to build AI and compete in AI
-            Hackathons. It also leverages the experience of AI professionals and
-            academics. Check out our events{" "}
+            The Artificial Intelligence Committee at ACM AUB is on a mission to
+            demystify the realms of Machine Learning (ML) and empower students
+            to craft their AI solutions, ready to conquer AI Hackathons. We draw
+            from the expertise of AI professionals and academics to guide our
+            members through the intricate landscape of AI. Embark on a journey
+            of innovation and exploration with us. Check out our events{" "}
             <Link
               to="/Events"
               style={{ color: "blue", textDecoration: "underline" }}
             >
               here
-            </Link>
-            .
+            </Link>{" "}
+            and dive into the world of artificial intelligence!
           </p>
         </div>
       </div>

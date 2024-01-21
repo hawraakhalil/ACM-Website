@@ -14,18 +14,19 @@ function ValuesSection() {
           <div>
             <div>
               <p>
-                Above all, ACM AUB is a testament to our dedication in fulfilling 
-                our mission of sharing knowledge and resources. We extend a welcoming 
-                hand to the talented minds of Lebanon and the surrounding regions. 
-                Those who share our values and possess an eagerness to invest in personal 
-                growth, developing computing skills, guided by our mentorship and support.
+                Above all, ACM AUB is a testament to our dedication in
+                fulfilling our mission of sharing knowledge and resources. We
+                extend a welcoming hand to the talented minds of Lebanon and the
+                surrounding regions. Those who share our values and possess an
+                eagerness to invest in personal growth, developing computing
+                skills, guided by our mentorship and support.
               </p>
             </div>
             <div>
               <p>
                 Here at ACM AUB, we embrace diversity and open our arms to every
-                AUB student, regardless of their backgrounds. Non-political, 
-                student-lead, and ever-dedicated, we stand as a beacon of 
+                AUB student, regardless of their backgrounds. Non-political,
+                student-lead, and ever-dedicated, we stand as a beacon of
                 academic excellence, education, and technological advancement.
                 Our compass always points towards the responsible and ethical
                 use of technology for a positive societal impact.

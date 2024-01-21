@@ -21,7 +21,7 @@ const Timeline = () => {
         }}
       >
         <h3>
-          ACM Alumni Day: Bridging the Past and Present, Inspiring Futures 💬
+          ACM AUB Alumni Day: Bridging the Past and Present, Inspiring Futures 💬
         </h3>
         <p>
           The Alumni Day was a half-day, fully in-person immersion of wisdom

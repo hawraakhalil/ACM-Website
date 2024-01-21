@@ -6,10 +6,12 @@ import Footer from "../Footer";
 import Vision from "../Vision";
 import Message from "../Message";
 import "./AboutUs.css";
+import ScrollToTopOnMount from "../ScrollToTopOnMount";
 
 function AboutUs() {
   return (
     <>
+      <ScrollToTopOnMount/>
       <Message />
       <div className="welcome-banner">
         <p className="large-font">

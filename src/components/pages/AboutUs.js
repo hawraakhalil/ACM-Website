@@ -21,7 +21,7 @@ function AboutUs() {
       <GoalSection />
       <ValuesSection />
       <div className="closing-banner">
-        <p className="medium-font">🌐💻✨ ACM AUB - Shaping Minds, Building Futures, Coding Lebanon’s Tomorrow!</p>
+        <p className="medium-font">🌐💻👾 ACM AUB - Shaping Minds, Building Futures, Coding Lebanon’s Tomorrow!</p>
       </div>
       <Footer />
     </>

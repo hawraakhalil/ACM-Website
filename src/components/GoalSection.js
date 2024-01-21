@@ -1,6 +1,6 @@
 import React from "react";
 import "./AcmDesc.css";
-import HoverAnimation from "./HoverAnimation";
+import HoverAnimation from "./DragAnimation";
 
 function GoalSection() {
   return (

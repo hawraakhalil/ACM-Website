@@ -8,6 +8,7 @@ import Events from "./components/pages/Events";
 import Committees from "./components/pages/Committees";
 import AboutUs from "./components/pages/AboutUs";
 import OpenSources from "./components/pages/OpenSources";
+import "./components/ScrollStyles.css"; 
 
 function App() {
   return (

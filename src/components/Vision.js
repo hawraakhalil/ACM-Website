@@ -1,6 +1,6 @@
 import React from "react";
 import "./AcmDesc.css";
-import DragAnimation from "./DragAnimation";
+import DragAnimation from "./HoverAnimation";
 
 function Vision() {
   return (

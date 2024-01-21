@@ -68,6 +68,7 @@ function Cards() {
               color="red"
               shadow={RED}
               email="mailto:adk05@mail.aub.edu"
+              linkedin="https://www.linkedin.com/in/anthony-khairallah-0124b6295/"
             />
             <CardItem
               src="images/img-5.jpg"

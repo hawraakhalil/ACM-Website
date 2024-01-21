@@ -11,7 +11,7 @@ const CpDesc = () => {
           Our Competitive Programming Committee is not just a platform; it's a
           launchpad for students aspiring to conquer programming competitions
           and thrive in the tech industry. We harness the wisdom of seasoned
-          student competitors and accomplished and experienced alumni to impart
+          student competitors and accomplished, experienced alumni to impart
           knowledge, attract fresh talent, and elevate skills. Dive into a world
           of competitions, workshops, and endless possibilities. Explore our
           events{" "}

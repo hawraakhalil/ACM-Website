@@ -18,7 +18,7 @@ const JumpAnimation = () => {
           y: isTapped ? [0, -100, -100, 0] : 0,
           rotate: isTapped ? [0, 0, 360, 360] : 0,
         }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 0.9 }}
       />
     </div>
   );

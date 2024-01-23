@@ -68,6 +68,7 @@ function Committees() {
             knowledge, attract fresh talent, and elevate skills. Dive into a
             world of competitions, workshops, and endless possibilities. Explore
             our events{" "}
+            <div ref={edu} />
             <Link
               to="/Events"
               style={{ color: "blue", textDecoration: "underline" }}
@@ -75,14 +76,17 @@ function Committees() {
               here
             </Link>{" "}
             and join the coding revolution!
+
           </p>
+
         </div>
+
         <div className="banner-section">
+
           <img src="/images/cp_banner.jpg" alt="Rectangular Banner" />
-          <div ref={edu} />
+
         </div>
       </div>
-
       <div className="committee-desc-container-edu">
         <div className="banner-section">
           <img src="/images/Education_banner.jpg" alt="Rectangular Banner" />

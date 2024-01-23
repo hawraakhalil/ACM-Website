@@ -14,7 +14,6 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/Board" exact element={<Board />} />
@@ -22,7 +21,6 @@ function App() {
           <Route path="/Committees" exact element={<Committees />} />
           <Route path="/AboutUs" exact element={<AboutUs />} />
           <Route path="/OpenSources" exact element={<OpenSources />} />
-          <Route path="*" exact element={<Navigate to="/" />} />
         </Routes>
       </Router>
     </>

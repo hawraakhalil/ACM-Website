@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Navigate,Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Board from "./components/pages/Board";
 import Events from "./components/pages/Events";
@@ -22,6 +22,7 @@ function App() {
           <Route path="/Committees" exact element={<Committees />} />
           <Route path="/AboutUs" exact element={<AboutUs />} />
           <Route path="/OpenSources" exact element={<OpenSources />} />
+          <Route path="*" exact element={<Navigate to="/" />} />
         </Routes>
       </Router>
     </>

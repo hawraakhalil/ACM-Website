@@ -65,12 +65,16 @@ function OnlineCourse() {
               <a
                 href="https://www.aub.edu.lb/msfea/ece/introduction-to-computation-and-programming-using-python/Pages/courses.aspx"
                 className="button"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Learn Python at your own pace without receiving a certificate
               </a>
               <a
                 href="https://www.aub.edu.lb/msfea/Landing/introduction-to-Python.html"
                 className="button"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Enroll in the interactive program and get your certificate
               </a>

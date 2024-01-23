@@ -22,6 +22,7 @@ function App() {
           <Route path="/Committees" exact element={<Committees />} />
           <Route path="/OpenSources" exact element={<OpenSources />} />
           <Route path="/AboutUs" exact element={<AboutUs />} />
+          <Route path="*" exact element={<Navigate to="/" />} />
         </Routes>
       </Router>
     </>

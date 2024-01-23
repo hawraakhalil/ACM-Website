@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/Board" exact element={<Board />} />

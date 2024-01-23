@@ -20,8 +20,8 @@ function App() {
           <Route path="/Board" exact element={<Board />} />
           <Route path="/Events" exact element={<Events />} />
           <Route path="/Committees" exact element={<Committees />} />
-          <Route path="/AboutUs" exact element={<AboutUs />} />
           <Route path="/OpenSources" exact element={<OpenSources />} />
+          <Route path="/AboutUs" exact element={<AboutUs />} />
         </Routes>
       </Router>
     </>

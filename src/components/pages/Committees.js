@@ -1,5 +1,5 @@
 import "../../App.css";
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 import "./AboutUs.css";
@@ -11,11 +11,7 @@ function Committees() {
   const cp = useRef(null);
   const edu = useRef(null);
   const ai = useRef(null);
-
-  const handleCommitteeClick = () => {
-    edu.current.scrollIntoView({ behavior: "smooth" });
-  };
-
+  
   return (
     <>
       <ScrollToTopOnMount />

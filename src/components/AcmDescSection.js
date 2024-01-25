@@ -20,11 +20,11 @@ const AcmDescSection = () => {
           <div>
             <p>
               Here at ACM AUB, we embrace diversity and open our arms to every
-              AUB student, regardless of their backgrounds. Non-political,
-              student-lead, and ever-dedicated, we stand as a beacon of academic
-              excellence, education, and technological advancement. Our compass
-              always points towards the responsible and ethical use of
-              technology for a positive societal impact.
+              AUB student, regardless of their backgrounds. Student-lead and 
+              ever-dedicated, we stand as a beacon of academic excellence, 
+              education, and technological advancement. Our compass always points 
+              towards the responsible and ethical use of technology for a positive
+              societal impact.
             </p>
           </div>
         </div>

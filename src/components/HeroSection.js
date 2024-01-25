@@ -16,7 +16,7 @@ function HeroSection() {
           buttonSize="btn--large"
           whereTo="/AboutUs"
         >
-          ABOUT US
+          About Us
         </Button>
       </div>
     </div>

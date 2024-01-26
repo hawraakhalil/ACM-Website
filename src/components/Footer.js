@@ -7,7 +7,10 @@ const Footer = () => {
     <div className="footer-container">
       <div className="left-section">
       <a href="https://www.aub.edu.lb/" target="_blank" rel="noopener noreferrer">
-        <img src="images/aub_logo.jpg" alt="AUB logo" />
+        <img className="aub" src="images/aub_logo.jpg" alt="AUB logo" />
+        </a>
+        <a href="https://www.aub.edu.lb/msfea/Pages/default.aspx" target="_blank" rel="noopener noreferrer">
+        <img className="msfea" src="images/msfea.jpg" alt="MSFEA logo" />
         </a>
       </div>
       <div className="center-section">

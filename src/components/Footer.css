@@ -7,21 +7,30 @@
 }
 
 .center-section li a {
-
   text-decoration: underline;
-  /* Add underline on hover if desired */
   color: white;
 }
 
+
 .center-section li a:hover {
   color: blueviolet;
-  /* Set link color */
 }
 
-.left-section img {
-  width: 200px;
-  /* Adjust the width as needed */
+.aub {
+  width: 200px ;
   height: auto;
+}
+
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msfea {
+  width:60px;
+  height: auto;
+  margin-right:10px;
 }
 
 .center-section {
@@ -56,44 +65,41 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  /* Center the icons horizontally */
   align-items: center;
-  /* Center the icons vertically */
 }
 
 .social-icon-link {
   text-decoration: none;
   margin-right: 10px;
-  /* Adjust the spacing between icons */
   margin-left: 10px;
 }
 
 .social-icon-link i {
   font-size: 2rem;
-  /* Adjust the font size as needed */
   color: white;
   transition: color 0.3s ease;
 }
 
 .social-icon-link:hover i {
   color: blueviolet;
-  /* Change to the desired color on hover */
 }
 
 @media screen and (min-width: 960px) {
 
   .social-icon-link i {
     font-size: 4rem;
-    /* Adjust the font size as needed */
   }
 
   .footer-container {
     padding: 4rem 16rem 2rem 10rem;
   }
 
-  .left-section img {
+  .aub{
     width: 250px;
-    /* Adjust the width as needed */
+    margin-right:15px;
+  }
+  .msfea {
+    width: 80px;
   }
 
   .center-section h4 {
@@ -104,12 +110,16 @@
 @media screen and (max-width: 480px) {
   .social-icon-link {
     margin-right: 5px;
-    /* Adjust the spacing between icons */
   }
 
-  .left-section img {
+  .aub {
     width: 120px;
   }
+
+  .msfea {
+    width: 40px;
+  }
+
 
   .center-section h4 {
     margin-bottom: 0.5rem;

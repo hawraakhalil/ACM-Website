@@ -30,7 +30,7 @@ function Committees() {
             onClick={() => cp.current.scrollIntoView({ behavior: "smooth" })}
           >
             <h3 className="cp_glow">COMPETITIVE PROGRAMMING</h3>
-            <img src="/images/cp_logo.jpg" alt="Committee 1" />
+            <img src="/images/cp_logo.jpg" alt="Committee 1" style={{cursor:"pointer"}}/>
             <p style={{ color: "#B00707" }}>Igniting the Coding Spark</p>
           </div>
           <div
@@ -38,7 +38,7 @@ function Committees() {
             onClick={() => edu.current.scrollIntoView({ behavior: "smooth" })}
           >
             <h3 className="edu_glow">EDUCATION</h3>
-            <img src="/images/education_logo.jpg" alt="Committee 3" />
+            <img src="/images/education_logo.jpg" alt="Committee 3" style={{cursor:"pointer"}}/>
             <p style={{ color: "#0089FF" }}>Bridging Minds, Building Futures</p>
           </div>
           <div
@@ -46,7 +46,7 @@ function Committees() {
             onClick={() => ai.current.scrollIntoView({ behavior: "smooth" })}
           >
             <h3 className="ai_glow">ARTIFICIAL INTELLIGENCE</h3>
-            <img src="/images/ai_logo.jpg" alt="Committee 2" />
+            <img src="/images/ai_logo.jpg" alt="Committee 2" style={{cursor:"pointer"}}/>
             <p style={{ color: "#47817F" }} ref={cp}>
               Unleashing the Potential of Artificial Minds
             </p>

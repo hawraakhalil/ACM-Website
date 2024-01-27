@@ -31,7 +31,7 @@ function Committees() {
           >
             <h3 className="cp_glow">COMPETITIVE PROGRAMMING</h3>
             <img src="/images/cp_logo.jpg" alt="Committee 1" style={{cursor:"pointer"}}/>
-            <p style={{ color: "#B00707" }}>Igniting the Coding Spark</p>
+            <p style={{ color: "#B00707" }}>Conquering Competitive Programming</p>
           </div>
           <div
             className="committee"
@@ -39,7 +39,7 @@ function Committees() {
           >
             <h3 className="edu_glow">EDUCATION</h3>
             <img src="/images/education_logo.jpg" alt="Committee 3" style={{cursor:"pointer"}}/>
-            <p style={{ color: "#0089FF" }}>Bridging Minds, Building Futures</p>
+            <p style={{ color: "#0089FF" }}>Teaching The World</p>
           </div>
           <div
             className="committee"
@@ -48,14 +48,14 @@ function Committees() {
             <h3 className="ai_glow">ARTIFICIAL INTELLIGENCE</h3>
             <img src="/images/ai_logo.jpg" alt="Committee 2" style={{cursor:"pointer"}}/>
             <p style={{ color: "#47817F" }} ref={cp}>
-              Unleashing the Potential of Artificial Minds
+              Unleashing The Potential of Machine Learning
             </p>
           </div>
         </div>
       </div>
       <div className="committee-desc-container">
         <div className="text-section">
-          <h1>acm CP</h1>
+          <h1>acm cp</h1>
           <p>
             Our Competitive Programming Committee is not just a platform; it's a
             launchpad for students aspiring to conquer programming competitions
@@ -88,7 +88,7 @@ function Committees() {
           <img src="/images/Education_banner.jpg" alt="Rectangular Banner" />
         </div>
         <div className="text-section-EDU">
-          <h1>acm Education</h1>
+          <h1>acm education</h1>
           <p>
             The Education Committee at ACM AUB is the bridge connecting AUB
             students to their communities, offering avenues to contribute to
@@ -114,7 +114,7 @@ function Committees() {
       <div className="committee-desc-container">
         <div className="text-section">
           <div className="text-section-AI">
-            <h1>acm AI</h1>
+            <h1>acm ai</h1>
             <p>
               The Artificial Intelligence Committee at ACM AUB is on a mission
               to demystify the realms of Machine Learning (ML) and empower

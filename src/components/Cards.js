@@ -9,7 +9,7 @@ const RED =
 const GREEN =
   "0 6px 20px rgba(56, 125, 255, 0.17), 0 0 10px rgba(83, 255, 56, 0.703)";
 const YELLOW =
-  "0 6px 20px rgba(56, 125, 255, 0.17), 0 0 10px rgba(245, 255, 56, 0.736)";
+  "0 6px 20px rgba(243, 195, 23, 0.1), 0 0 10px rgba(243, 195, 23, 0.4)";
 
 function Cards() {
   return (
@@ -21,11 +21,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-15.jpg"
-              text="Loauy Bazzi"
+              text="Louay Bazzi"
               label="Advisor"
               color="yellow"
               shadow={YELLOW}
               email="mailto:lb13@aub.edu.lb"
+              linkedin="user"
+              profile="https://www.aub.edu.lb/pages/profile.aspx?memberId=lb13"
             />
           </ul>
         </div>

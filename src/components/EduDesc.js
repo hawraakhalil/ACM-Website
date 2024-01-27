@@ -9,7 +9,7 @@ function EduDesc() {
         <img src="/images/Education_banner.jpg" alt="Rectangular Banner" />
       </div>
       <div className="text-section-EDU">
-        <h1>acm Education</h1>
+        <h1>acm education</h1>
         <p>
           The Education Committee at ACM AUB is the bridge connecting AUB
           students to their communities, offering avenues to contribute to

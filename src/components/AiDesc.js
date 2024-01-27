@@ -7,7 +7,7 @@ const AiDesc = () => {
     <div className="committee-desc-container">
       <div className="text-section">
         <div className="text-section-AI">
-          <h1>acm AI</h1>
+          <h1>acm ai</h1>
           <p>
             The Artificial Intelligence Committee at ACM AUB is on a mission to
             demystify the realms of Machine Learning (ML) and empower students

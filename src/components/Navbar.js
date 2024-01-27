@@ -91,13 +91,13 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Open Sources
+                Open Source
               </Link>
             </li>
           </ul>
           {button && (
             <Button buttonStyle="btn--outline" whereTo="/OpenSources">
-              Open Sources
+              Open Source
             </Button>
           )}
         </div>

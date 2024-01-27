@@ -21,7 +21,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-15.jpg"
-              text="Loauy Bazzy"
+              text="Loauy Bazzi"
               label="Advisor"
               color="yellow"
               shadow={YELLOW}

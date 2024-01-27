@@ -5,10 +5,18 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer-container">
+      <div className="logos">
       <div className="left-section">
       <a href="https://www.aub.edu.lb/" target="_blank" rel="noopener noreferrer">
-        <img src="images/aub_logo.jpg" alt="AUB logo" />
+        <img className="aub" src="images/aub_logo.jpg" alt="AUB logo" />
         </a>
+
+      </div>
+      <div className="left-section">
+      <a href="https://www.aub.edu.lb/msfea/Pages/default.aspx" target="_blank" rel="noopener noreferrer">
+        <img className="msfea" src="images/msfea.jpg" alt="MSFEA logo" />
+        </a>
+        </div>
       </div>
       <div className="center-section">
         <h4>Pages</h4>

@@ -25,12 +25,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding:10px;
 }
 
 .msfea {
   width:60px;
   height: auto;
-  margin-right:10px;
 }
 
 .center-section {
@@ -96,7 +96,6 @@
 
   .aub{
     width: 250px;
-    margin-right:15px;
   }
   .msfea {
     width: 80px;
@@ -104,6 +103,10 @@
 
   .center-section h4 {
     font-size: larger;
+  }
+  .logos {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -134,5 +137,15 @@
   .right-section p {
     font-size: x-small;
   }
-
+  .logos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logos {
+    display: flex;
+    align-items: center;
+  }
 }

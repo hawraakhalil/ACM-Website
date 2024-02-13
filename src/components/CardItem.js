@@ -19,36 +19,39 @@ function CardItem(props) {
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
             <div style={{ display: "flex", justifyContent: "center" }}>
-            {props.linkedin === "user" ? (
-    <Link to={props.profile} target="_blank">
-    <i
-      className="fa-solid fa-user"
-      style={{
-        color: "black",
-        transition: "transform 0.3s ease",
-        cursor: "pointer",
-        fontSize: "33px",
-      }}
-      onMouseOver={(e) => (e.target.style.transform = "scale(1.2)")}
-      onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
-    />
-        </Link>
-  ) : (
-    // Render LinkedIn icon if props.linkedin is a URL
-    <Link to={props.linkedin} target="_blank">
-      <i
-        className="fa-brands fa-linkedin"
-        style={{
-          color: props.linkedin ? "black" : "gray", // Customize the color as needed
-          fontSize: "37px",
-          transition: "transform 0.3s ease",
-          cursor: "pointer",
-        }}
-        onMouseOver={(e) => (e.target.style.transform = "scale(1.2)")}
-        onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
-      />
-    </Link>
-  )}
+              {props.linkedin === "user" ? (
+                <Link to={props.profile} target="_blank">
+                  <i
+                    className="fa-solid fa-user"
+                    style={{
+                      color: "black",
+                      transition: "transform 0.3s ease",
+                      cursor: "pointer",
+                      fontSize: "33px",
+                    }}
+                    onMouseOver={(e) =>
+                      (e.target.style.transform = "scale(1.2)")
+                    }
+                    onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+                  />
+                </Link>
+              ) : (
+                <Link to={props.linkedin} target="_blank">
+                  <i
+                    className="fa-brands fa-linkedin"
+                    style={{
+                      color: props.linkedin ? "black" : "gray",
+                      fontSize: "37px",
+                      transition: "transform 0.3s ease",
+                      cursor: "pointer",
+                    }}
+                    onMouseOver={(e) =>
+                      (e.target.style.transform = "scale(1.2)")
+                    }
+                    onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+                  />
+                </Link>
+              )}
               <Link to={props.email}>
                 <i
                   class="fa-solid fa-envelope"

@@ -15,23 +15,6 @@ function Cards() {
   return (
     <div className="cards">
       <h1>MEET THE TEAM</h1>
-      <h2>CLUB ADVISOR</h2>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">
-            <CardItem
-              src="images/img-15.jpg"
-              text="Louay Bazzi"
-              label="Advisor"
-              color="yellow"
-              shadow={YELLOW}
-              email="mailto:lb13@aub.edu.lb"
-              linkedin="user"
-              profile="https://www.aub.edu.lb/pages/profile.aspx?memberId=lb13"
-            />
-          </ul>
-        </div>
-      </div>
       <h2>CABINET MEMBERS</h2>
       <div className="cards__container">
         <div className="cards__wrapper">
@@ -177,6 +160,23 @@ function Cards() {
               color="blue"
               shadow={BLUE}
               email="mailto:ptc01@mail.aub.edu"
+            />
+          </ul>
+        </div>
+      </div>
+      <h2>CLUB ADVISOR</h2>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
+            <CardItem
+              src="images/img-15.jpg"
+              text="Louay Bazzi"
+              label="Advisor"
+              color="yellow"
+              shadow={YELLOW}
+              email="mailto:lb13@aub.edu.lb"
+              linkedin="user"
+              profile="https://www.aub.edu.lb/pages/profile.aspx?memberId=lb13"
             />
           </ul>
         </div>

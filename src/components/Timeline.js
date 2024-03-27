@@ -9,6 +9,29 @@ import "./Timeline.css";
 const Timeline = () => {
   return (
     <VerticalTimeline lineColor={"black"}>
+       <VerticalTimelineElement
+        contentStyle={{ background: "#B00707", color: "white" }}
+        contentArrowStyle={{ borderRight: "7px solid #B00707" }}
+        date="Feb 24, 2024"
+        iconClassName="border"
+        iconStyle={{
+          background: `url(${"/images/cp.jpg"})`,
+          backgroundSize: "cover",
+          color: "#fff",
+        }}
+      >
+        <h3>
+          ACM Programming Competition (AUBPC) 🏆
+        </h3>
+        <p>
+        The ACM AUB Programming Competition (AUBPC) was an exhilarating five-hour
+        showdown, tailor-made by our team to ignite the competitive spirit of 
+        programmers at all levels. With 22 dynamic teams competing against each other, 
+        the event buzzed with energy and excitement. Thanks to the generous sponsorship 
+        from Murex, prizes awaited the top three teams that demonstrated a remarkable 
+        performance, celebrating their outstanding achievements.
+        </p>
+      </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: "#840032", color: "white" }}
         contentArrowStyle={{ borderRight: "7px solid #840032" }}
@@ -57,7 +80,7 @@ const Timeline = () => {
           their registration processes. Rene provided a deep dive into the
           intricacies of big-tech interviews, offering crucial guidelines on how
           students should approach this critical phase of their career journey.
-          Excitement: The excitement among students was palpable as they engaged
+          The excitement among students was palpable as they engaged
           with Rene, seizing the opportunity to interact with someone who has
           not only conquered the tech industry but has also left an indelible
           mark on campus life.
@@ -97,7 +120,7 @@ const Timeline = () => {
         }}
         iconClassName="border"
       >
-        <h3>Launch of ACM AUB Competitive Programming Sessions 🏆</h3>
+        <h3>Launch of ACM AUB Competitive Programming Sessions 💻</h3>
         <p>
           The CP sessions are held twice a week and feature experienced students
           and alumni professionals who reached ICPC and were able to navigate

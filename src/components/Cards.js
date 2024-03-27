@@ -22,7 +22,7 @@ function Cards() {
             <CardItem
               src="images/img-1.jpg"
               text="Jad Mchaimech"
-              label="PREDISENT"
+              label="PRESIDENT"
               linkedin="https://www.linkedin.com/in/jad-mchaimech-86181a232/"
               color="red"
               shadow={RED}

@@ -38,7 +38,7 @@ function OnlineCourse() {
 
             <div className="details-with-icon">
               <CalendarMonthIcon />
-              <p>Next start date: TBD​</p>
+              <p>Next start date: June 14, 2024</p>
             </div>
 
             <div className="details-with-icon">
@@ -48,7 +48,7 @@ function OnlineCourse() {
 
             <div className="details-with-icon">
               <PaymentIcon />
-              <p>Total program tuition: FREE</p>
+              <p>Total program tuition: $10</p>
             </div>
             <div className="details-with-icon">
               <DescriptionIcon />

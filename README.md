@@ -27,9 +27,30 @@ Welcome to the ACM Student Chapter website at the American University of Beirut 
 
 # Project Structure
 
-- **src:**  Contains the source code for the React application.
-    - **components**: Contains a folder for the pages named "pages" in addition to the different components used in these pages.
-- **public:** Includes the images, videos, pdfs, and main HTML file.
+acm-website/
+├── public/
+│   ├── images/           # All static images used across the website
+│   ├── pdfs/             # Any downloadable PDF documents
+│   ├── videos/           # Embedded or downloadable video files
+│   ├── favicon.ico       # Website favicon
+│   └── index.html        # Root HTML file served by React
+│
+├── src/
+│   ├── App.js            # Root component, sets up routing and layout
+│   ├── App.css           # Global styles
+│   ├── index.js          # Entry point that renders App.js into DOM
+│   └── components/
+│       ├── pages/        # All main page components (see below)
+│       └── ...           # Shared smaller components used across pages
+│
+├── src/components/pages/
+│   ├── AboutUs.js        # "About Us" page
+│   ├── Board.js          # Board members listing
+│   ├── Committees.js     # Overview of ACM committees
+│   ├── Events.js         # Events listing
+│   ├── Home.js           # Landing/home page
+│   └── OpenSources.js    # Open-source initiatives overview
+│
 
 ## Libraries and Frameworks
 

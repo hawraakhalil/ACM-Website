@@ -27,7 +27,7 @@ Welcome to the ACM Student Chapter website at the American University of Beirut 
 
 # Project Structure
 
-acm-website/
+<pre> acm-website/
 ├── public/
 │   ├── images/           # All static images used across the website
 │   ├── pdfs/             # Any downloadable PDF documents
@@ -50,8 +50,7 @@ acm-website/
 │   ├── Events.js         # Events listing
 │   ├── Home.js           # Landing/home page
 │   └── OpenSources.js    # Open-source initiatives overview
-│
-
+│</pre>
 ## Libraries and Frameworks
 
 This project utilizes the following libraries and frameworks to enhance functionality and design:
